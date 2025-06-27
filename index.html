@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Lingua Hub</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Assalomu alaykum!</h1>
-  <p>Bu sahifa tayyor.</p>
+  <div class="container">
+    <h1>🌍 Learning Languages</h1>
+    <p>AI asosidagi testlarni olish uchun til va darajani tanlang:</p>
+
+    <select id="language">
+      <option value="english">Ingliz tili</option>
+      <option value="russian">Rus tili</option>
+      <option value="uzbek">O‘zbek tili</option>
+      <option value="arabic">Arab tili</option>
+      <option value="german">Nemis tili</option>
+      <option value="french">Fransuz tili</option>
+      <option value="turkish">Turk tili</option>
+      <option value="korean">Koreys tili</option>
+    </select>
+
+    <select id="level">
+      <option value="beginner">Boshlovchi</option>
+      <option value="intermediate">O‘rta</option>
+      <option value="advanced">Yaxshi</option>
+    </select>
+
+    <button onclick="getAiTest()">🎯 Test yaratish</button>
+
+    <div id="test-output" class="output"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
