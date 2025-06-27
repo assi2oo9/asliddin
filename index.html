@@ -8,6 +8,37 @@
 </head>
 <body>
   <div class="container">
+    <h1>Learning Languages - AI Test Generator</h1>
+
+<form id="test-form">
+  <label for="language">Tilni tanlang:</label>
+  <select id="language" required>
+    <option value="">-- Tanlang --</option>
+    <option value="english">Ingliz tili</option>
+    <option value="russian">Rus tili</option>
+    <option value="uzbek">O‘zbek tili</option>
+    <option value="arabic">Arab tili</option>
+    <option value="german">Nemis tili</option>
+    <option value="french">Fransuz tili</option>
+    <option value="turkish">Turk tili</option>
+    <option value="korean">Koreys tili</option>
+  </select>
+
+  <label for="level">Darajani tanlang:</label>
+  <select id="level" required>
+    <option value="">-- Tanlang --</option>
+    <option value="beginner">Boshlovchi</option>
+    <option value="intermediate">O‘rta</option>
+    <option value="advanced">Yaxshi</option>
+  </select>
+
+  <button type="submit">Testni yaratish</button>
+</form>
+
+<div class="output" id="test-output">
+  Test natijasi shu yerda chiqadi...
+</div>
+
     <h1>🌍 Learning Languages</h1>
     <p>AI asosidagi testlarni olish uchun til va darajani tanlang:</p>
 
